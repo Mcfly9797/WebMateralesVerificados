@@ -1,0 +1,2 @@
+# WebMateralesVerificados
+Cada vez que se crea un producto el mismo utiliza varios materiales que deben ser verificados anteriormente por un sistema paralelo. Para verificar la calidad de una cubierta al descubrir un material defectuoso, traigo todos los datos registrados y permito la busqueda por los usuarios pertenecientes a calidad de producto. Este proyecto esta realizado con db:sql, stored procedures. Backend: .net(WebForms), entity framework en c#. Front end: Bootstrap, ajax
