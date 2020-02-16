@@ -1,0 +1,10 @@
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\bin\Release\Entidades.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\bin\Release\Entidades.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\bin\Release\NodaTime.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\bin\Release\NodaTime.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\bin\Release\NodaTime.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\obj\Release\Entidades.csprojAssemblyReference.cache
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\obj\Release\Entidades.csproj.CopyComplete
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\obj\Release\Entidades.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\obj\Release\Entidades.pdb

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_MATERIALESModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TB_DATOS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BUILDINGMACHINE" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="BUILDINGSIZE" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="VERIFYDATETIME" Type="DateTime" Precision="7" />
+    <Property Name="BSDATESHIFT" Type="Int32" />
+    <Property Name="BUILDINGLOTNO" Type="Int32" />
+    <Property Name="BUILDER1" Type="Int32" />
+    <Property Name="MATERIALBARCODENO" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="PARTIID" Type="Int32" />
+    <Property Name="PARTNAME" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="PARTNUMBER" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="DATEPRODUCED" Type="DateTime" Precision="7" />
+    <Property Name="REMAIN" Type="Decimal" Precision="10" Scale="5" />
+    <Property Name="MACHINEPRODUCED" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MACHINENAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="BD_MATERIALESEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TB_DATOS" EntityType="Self.TB_DATOS" />
+    <FunctionImport Name="SP_TRAER_DATOS" ReturnType="Collection(BD_MATERIALESModel.SP_TRAER_DATOS_Result)" />
+  </EntityContainer>
+  <ComplexType Name="SP_TRAER_DATOS_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="BUILDINGMACHINE" Nullable="true" MaxLength="25" />
+    <Property Type="String" Name="BUILDINGSIZE" Nullable="true" MaxLength="25" />
+    <Property Type="DateTime" Name="VERIFYDATETIME" Nullable="true" />
+    <Property Type="Int32" Name="BSDATESHIFT" Nullable="true" />
+    <Property Type="Int32" Name="BUILDINGLOTNO" Nullable="true" />
+    <Property Type="Int32" Name="BUILDER1" Nullable="true" />
+    <Property Type="String" Name="MATERIALBARCODENO" Nullable="true" MaxLength="25" />
+    <Property Type="Int32" Name="PARTIID" Nullable="true" />
+    <Property Type="String" Name="PARTNAME" Nullable="true" MaxLength="25" />
+    <Property Type="String" Name="PARTNUMBER" Nullable="true" MaxLength="25" />
+    <Property Type="DateTime" Name="DATEPRODUCED" Nullable="true" />
+    <Property Type="Decimal" Name="REMAIN" Nullable="true" Precision="10" Scale="5" />
+    <Property Type="String" Name="MACHINEPRODUCED" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MACHINENAME" Nullable="true" MaxLength="50" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,163 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="Web.Default" %>
+
+<!DOCTYPE html>
+<html lang="es">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Bridgestone">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Bridgestone</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+
+
+        <!--Font awesome-->
+        <link href="css/all.css" rel="stylesheet" />
+
+
+
+        <!--Estilos -->
+        <link rel="stylesheet" href="css/estilos.css">
+
+
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs-3.3.7/jq-3.3.1/jszip-2.5.0/dt-1.10.20/b-1.6.1/b-colvis-1.6.1/b-flash-1.6.1/b-html5-1.6.1/sc-2.0.1/datatables.min.css" />
+
+
+
+
+
+    </asp:ContentPlaceHolder>
+
+
+
+
+
+    <%--
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">--%>
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+    <form id="form1" runat="server">
+
+
+
+
+        <!-- barra de navegacion-->
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: black">
+            <div class="col-md-11" style="text-align: left; height: 5vh;">
+                <a class="navbar-brand">Bridgestone</a>
+
+
+                <div class="loginHide">
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+
+            </div>
+
+            <div class="loginHide">
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <%-- <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="nuevo.aspx" class="nav-link">Nuevo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="activos.aspx" class="nav-link">Activos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="historial.aspx" class="nav-link">Historial</a>
+                        </li>
+                    </ul>--%>
+                </div>
+            </div>
+        </nav>
+
+        <div id="main">
+            <div class="dark-overlay">
+                <!-- <div class="container" style="background-color:black; width:100%"> -->
+
+
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+
+
+                <!--</div>-->
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <a>Bridgestone Argentina.</a>
+        </footer>
+        <!--javascript vanilla-->
+        <script type="text/javascript" charset="utf8" src="./js/all.js"></script>
+
+    </form>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+
+    <script src="js/all.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+    <!-- Latest jQuery minified -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.15/datatables.min.js"></script>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.7/jq-3.3.1/jszip-2.5.0/dt-1.10.20/b-1.6.1/b-colvis-1.6.1/b-flash-1.6.1/b-html5-1.6.1/sc-2.0.1/datatables.min.js"></script>
+
+
+
+    <script>
+        $(function () {
+
+            //test();
+            dtUsers();
+            //__showUsers();
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,21 @@
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Entidades\bin\Debug\Entidades.dll
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Entidades\bin\Debug\Entidades.pdb
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Entidades\obj\Debug\Entidades.dll
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Entidades\obj\Debug\Entidades.pdb
+C:\Users\a-villarealn\Desktop\web\Entidades\bin\Debug\Entidades.dll
+C:\Users\a-villarealn\Desktop\web\Entidades\bin\Debug\Entidades.pdb
+C:\Users\a-villarealn\Desktop\web\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\a-villarealn\Desktop\web\Entidades\obj\Debug\Entidades.dll
+C:\Users\a-villarealn\Desktop\web\Entidades\obj\Debug\Entidades.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\bin\Debug\Entidades.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\bin\Debug\Entidades.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\obj\Debug\Entidades.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\obj\Debug\Entidades.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\bin\Debug\NodaTime.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\bin\Debug\NodaTime.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\bin\Debug\NodaTime.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Entidades\obj\Debug\Entidades.csproj.CopyComplete

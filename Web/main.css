@@ -1,0 +1,58 @@
+
+.container {
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+
+#main {
+    background: url('../img/Bridgestone.jpg');
+    min-height: 100vh;
+    min-width: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+header {
+    background-color: rgba(187, 43, 27, 0.8);
+    border-bottom: #c0392b 3px solid;
+
+}
+
+
+.table {
+    background-color: rgba(255, 255, 255, 0.616);
+
+}
+/*estilos para la tabla*/
+table th {
+    /*background-color: #b92828 !important;*/
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+}
+
+table > tbody > tr > td {
+    vertical-align: middle !important;
+    
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.btn-group, .btn-group-vertical {
+    position: absolute !important;
+}

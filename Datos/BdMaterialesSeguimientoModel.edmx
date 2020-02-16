@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="BD_MATERIALESModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="TB_DATOS">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BUILDINGMACHINE" Type="varchar" MaxLength="25" />
+          <Property Name="BUILDINGSIZE" Type="varchar" MaxLength="25" />
+          <Property Name="VERIFYDATETIME" Type="datetime2" Precision="7" />
+          <Property Name="BSDATESHIFT" Type="int" />
+          <Property Name="BUILDINGLOTNO" Type="int" />
+          <Property Name="BUILDER1" Type="int" />
+          <Property Name="MATERIALBARCODENO" Type="varchar" MaxLength="25" />
+          <Property Name="PARTIID" Type="int" />
+          <Property Name="PARTNAME" Type="varchar" MaxLength="25" />
+          <Property Name="PARTNUMBER" Type="varchar" MaxLength="25" />
+          <Property Name="DATEPRODUCED" Type="datetime2" Precision="7" />
+          <Property Name="REMAIN" Type="numeric" Precision="10" Scale="5" />
+          <Property Name="MACHINEPRODUCED" Type="varchar" MaxLength="10" />
+          <Property Name="MACHINENAME" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Function Name="SP_TRAER_DATOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="SP_TRAER_DATOS_FECHAS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="strStart" Type="datetime2" Mode="In" />
+          <Parameter Name="strFin" Type="datetime2" Mode="In" />
+        </Function>
+        <EntityContainer Name="BD_MATERIALESModelStoreContainer">
+          <EntitySet Name="TB_DATOS" EntityType="Self.TB_DATOS" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BD_MATERIALESModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="TB_DATOS">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BUILDINGMACHINE" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="BUILDINGSIZE" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="VERIFYDATETIME" Type="DateTime" Precision="7" />
+          <Property Name="BSDATESHIFT" Type="Int32" />
+          <Property Name="BUILDINGLOTNO" Type="Int32" />
+          <Property Name="BUILDER1" Type="Int32" />
+          <Property Name="MATERIALBARCODENO" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="PARTIID" Type="Int32" />
+          <Property Name="PARTNAME" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="PARTNUMBER" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="DATEPRODUCED" Type="DateTime" Precision="7" />
+          <Property Name="REMAIN" Type="Decimal" Precision="10" Scale="5" />
+          <Property Name="MACHINEPRODUCED" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="MACHINENAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="BD_MATERIALESEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TB_DATOS" EntityType="Self.TB_DATOS" />
+          <FunctionImport Name="SP_TRAER_DATOS" ReturnType="Collection(BD_MATERIALESModel.SP_TRAER_DATOS_Result)" />
+          <FunctionImport Name="SP_TRAER_DATOS_FECHAS" ReturnType="Collection(BD_MATERIALESModel.SP_TRAER_DATOS_FECHAS_Result)">
+            <Parameter Name="strStart" Mode="In" Type="DateTime" />
+            <Parameter Name="strFin" Mode="In" Type="DateTime" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="SP_TRAER_DATOS_Result">
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="BUILDINGMACHINE" Nullable="true" MaxLength="25" />
+          <Property Type="String" Name="BUILDINGSIZE" Nullable="true" MaxLength="25" />
+          <Property Type="DateTime" Name="VERIFYDATETIME" Nullable="true" />
+          <Property Type="Int32" Name="BSDATESHIFT" Nullable="true" />
+          <Property Type="Int32" Name="BUILDINGLOTNO" Nullable="true" />
+          <Property Type="Int32" Name="BUILDER1" Nullable="true" />
+          <Property Type="String" Name="MATERIALBARCODENO" Nullable="true" MaxLength="25" />
+          <Property Type="Int32" Name="PARTIID" Nullable="true" />
+          <Property Type="String" Name="PARTNAME" Nullable="true" MaxLength="25" />
+          <Property Type="String" Name="PARTNUMBER" Nullable="true" MaxLength="25" />
+          <Property Type="DateTime" Name="DATEPRODUCED" Nullable="true" />
+          <Property Type="Decimal" Name="REMAIN" Nullable="true" Precision="10" Scale="5" />
+          <Property Type="String" Name="MACHINEPRODUCED" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="MACHINENAME" Nullable="true" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="SP_TRAER_DATOS_FECHAS_Result">
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="BUILDINGMACHINE" Nullable="true" MaxLength="25" />
+          <Property Type="String" Name="BUILDINGSIZE" Nullable="true" MaxLength="25" />
+          <Property Type="DateTime" Name="VERIFYDATETIME" Nullable="true" />
+          <Property Type="Int32" Name="BSDATESHIFT" Nullable="true" />
+          <Property Type="Int32" Name="BUILDINGLOTNO" Nullable="true" />
+          <Property Type="Int32" Name="BUILDER1" Nullable="true" />
+          <Property Type="String" Name="MATERIALBARCODENO" Nullable="true" MaxLength="25" />
+          <Property Type="Int32" Name="PARTIID" Nullable="true" />
+          <Property Type="String" Name="PARTNAME" Nullable="true" MaxLength="25" />
+          <Property Type="String" Name="PARTNUMBER" Nullable="true" MaxLength="25" />
+          <Property Type="DateTime" Name="DATEPRODUCED" Nullable="true" />
+          <Property Type="Decimal" Name="REMAIN" Nullable="true" Precision="10" Scale="5" />
+          <Property Type="String" Name="MACHINEPRODUCED" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="MACHINENAME" Nullable="true" MaxLength="50" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BD_MATERIALESModelStoreContainer" CdmEntityContainer="BD_MATERIALESEntities">
+          <EntitySetMapping Name="TB_DATOS">
+            <EntityTypeMapping TypeName="BD_MATERIALESModel.TB_DATOS">
+              <MappingFragment StoreEntitySet="TB_DATOS">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="BUILDINGMACHINE" ColumnName="BUILDINGMACHINE" />
+                <ScalarProperty Name="BUILDINGSIZE" ColumnName="BUILDINGSIZE" />
+                <ScalarProperty Name="VERIFYDATETIME" ColumnName="VERIFYDATETIME" />
+                <ScalarProperty Name="BSDATESHIFT" ColumnName="BSDATESHIFT" />
+                <ScalarProperty Name="BUILDINGLOTNO" ColumnName="BUILDINGLOTNO" />
+                <ScalarProperty Name="BUILDER1" ColumnName="BUILDER1" />
+                <ScalarProperty Name="MATERIALBARCODENO" ColumnName="MATERIALBARCODENO" />
+                <ScalarProperty Name="PARTIID" ColumnName="PARTIID" />
+                <ScalarProperty Name="PARTNAME" ColumnName="PARTNAME" />
+                <ScalarProperty Name="PARTNUMBER" ColumnName="PARTNUMBER" />
+                <ScalarProperty Name="DATEPRODUCED" ColumnName="DATEPRODUCED" />
+                <ScalarProperty Name="REMAIN" ColumnName="REMAIN" />
+                <ScalarProperty Name="MACHINEPRODUCED" ColumnName="MACHINEPRODUCED" />
+                <ScalarProperty Name="MACHINENAME" ColumnName="MACHINENAME" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="SP_TRAER_DATOS" FunctionName="BD_MATERIALESModel.Store.SP_TRAER_DATOS">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="BD_MATERIALESModel.SP_TRAER_DATOS_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="BUILDINGMACHINE" ColumnName="BUILDINGMACHINE" />
+                <ScalarProperty Name="BUILDINGSIZE" ColumnName="BUILDINGSIZE" />
+                <ScalarProperty Name="VERIFYDATETIME" ColumnName="VERIFYDATETIME" />
+                <ScalarProperty Name="BSDATESHIFT" ColumnName="BSDATESHIFT" />
+                <ScalarProperty Name="BUILDINGLOTNO" ColumnName="BUILDINGLOTNO" />
+                <ScalarProperty Name="BUILDER1" ColumnName="BUILDER1" />
+                <ScalarProperty Name="MATERIALBARCODENO" ColumnName="MATERIALBARCODENO" />
+                <ScalarProperty Name="PARTIID" ColumnName="PARTIID" />
+                <ScalarProperty Name="PARTNAME" ColumnName="PARTNAME" />
+                <ScalarProperty Name="PARTNUMBER" ColumnName="PARTNUMBER" />
+                <ScalarProperty Name="DATEPRODUCED" ColumnName="DATEPRODUCED" />
+                <ScalarProperty Name="REMAIN" ColumnName="REMAIN" />
+                <ScalarProperty Name="MACHINEPRODUCED" ColumnName="MACHINEPRODUCED" />
+                <ScalarProperty Name="MACHINENAME" ColumnName="MACHINENAME" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_TRAER_DATOS_FECHAS" FunctionName="BD_MATERIALESModel.Store.SP_TRAER_DATOS_FECHAS">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="BD_MATERIALESModel.SP_TRAER_DATOS_FECHAS_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="BUILDINGMACHINE" ColumnName="BUILDINGMACHINE" />
+                <ScalarProperty Name="BUILDINGSIZE" ColumnName="BUILDINGSIZE" />
+                <ScalarProperty Name="VERIFYDATETIME" ColumnName="VERIFYDATETIME" />
+                <ScalarProperty Name="BSDATESHIFT" ColumnName="BSDATESHIFT" />
+                <ScalarProperty Name="BUILDINGLOTNO" ColumnName="BUILDINGLOTNO" />
+                <ScalarProperty Name="BUILDER1" ColumnName="BUILDER1" />
+                <ScalarProperty Name="MATERIALBARCODENO" ColumnName="MATERIALBARCODENO" />
+                <ScalarProperty Name="PARTIID" ColumnName="PARTIID" />
+                <ScalarProperty Name="PARTNAME" ColumnName="PARTNAME" />
+                <ScalarProperty Name="PARTNUMBER" ColumnName="PARTNUMBER" />
+                <ScalarProperty Name="DATEPRODUCED" ColumnName="DATEPRODUCED" />
+                <ScalarProperty Name="REMAIN" ColumnName="REMAIN" />
+                <ScalarProperty Name="MACHINEPRODUCED" ColumnName="MACHINEPRODUCED" />
+                <ScalarProperty Name="MACHINENAME" ColumnName="MACHINENAME" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

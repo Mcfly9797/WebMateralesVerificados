@@ -1,0 +1,133 @@
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Datos\bin\Debug\Datos.dll.config
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Datos\bin\Debug\Datos.dll
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Datos\bin\Debug\Datos.pdb
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Datos\bin\Debug\EntityFramework.dll
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Datos\bin\Debug\System.Data.SqlClient.dll
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Datos\bin\Debug\EntityFramework.xml
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Datos\bin\Debug\System.Data.SqlClient.xml
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Datos\obj\Debug\Datos.dll
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Datos\obj\Debug\Datos.pdb
+C:\Users\a-villarealn\Desktop\ExplorarVisualStudio\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\a-villarealn\Desktop\web\Datos\bin\Debug\Datos.dll.config
+C:\Users\a-villarealn\Desktop\web\Datos\bin\Debug\Datos.dll
+C:\Users\a-villarealn\Desktop\web\Datos\bin\Debug\Datos.pdb
+C:\Users\a-villarealn\Desktop\web\Datos\bin\Debug\Entidades.dll
+C:\Users\a-villarealn\Desktop\web\Datos\bin\Debug\EntityFramework.dll
+C:\Users\a-villarealn\Desktop\web\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\a-villarealn\Desktop\web\Datos\bin\Debug\System.Data.SqlClient.dll
+C:\Users\a-villarealn\Desktop\web\Datos\bin\Debug\Entidades.pdb
+C:\Users\a-villarealn\Desktop\web\Datos\bin\Debug\EntityFramework.xml
+C:\Users\a-villarealn\Desktop\web\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\a-villarealn\Desktop\web\Datos\bin\Debug\System.Data.SqlClient.xml
+C:\Users\a-villarealn\Desktop\web\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\a-villarealn\Desktop\web\Datos\obj\Debug\Datos.Properties.Resources.resources
+C:\Users\a-villarealn\Desktop\web\Datos\obj\Debug\Datos.csproj.GenerateResource.cache
+C:\Users\a-villarealn\Desktop\web\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\a-villarealn\Desktop\web\Datos\obj\Debug\Datos.dll
+C:\Users\a-villarealn\Desktop\web\Datos\obj\Debug\Datos.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\obj\Debug\Datos.Properties.Resources.resources
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\obj\Debug\Datos.csproj.GenerateResource.cache
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\obj\Debug\Datos.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\obj\Debug\Datos.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Datos.dll.config
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Datos.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Datos.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Entidades.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\EntityFramework.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.Data.SqlClient.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Entidades.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\EntityFramework.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.Data.SqlClient.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Recognizers.Definitions.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Recognizers.Text.DateTime.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Recognizers.Text.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Recognizers.Text.Number.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Recognizers.Text.NumberWithUnit.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\NodaTime.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.Buffers.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.Collections.Immutable.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.Memory.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.ValueTuple.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\NodaTime.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\NodaTime.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.Buffers.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.Collections.Immutable.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.Memory.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales\Datos\bin\Debug\System.ValueTuple.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Datos.dll.config
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Datos.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Datos.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Entidades.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\EntityFramework.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Recognizers.Definitions.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Recognizers.Text.DateTime.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Recognizers.Text.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Recognizers.Text.Number.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Recognizers.Text.NumberWithUnit.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\NodaTime.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.Buffers.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.Collections.Immutable.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.Data.SqlClient.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.Memory.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.ValueTuple.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Entidades.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\EntityFramework.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\NodaTime.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\NodaTime.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.Buffers.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.Collections.Immutable.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.Data.SqlClient.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.Memory.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\bin\Debug\System.ValueTuple.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\obj\Debug\Datos.Properties.Resources.resources
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\obj\Debug\Datos.csproj.GenerateResource.cache
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\obj\Debug\Datos.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Datos\obj\Debug\Datos.pdb

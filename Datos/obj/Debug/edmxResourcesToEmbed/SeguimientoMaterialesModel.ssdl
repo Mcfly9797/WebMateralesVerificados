@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_MATERIALESModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TB_DATOS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BUILDINGMACHINE" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="BUILDINGSIZE" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="VERIFYDATETIME" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="BSDATESHIFT" Type="int" Nullable="false" />
+    <Property Name="BUILDINGLOTNO" Type="int" Nullable="false" />
+    <Property Name="BUILDER1" Type="int" Nullable="false" />
+    <Property Name="MATERIALBARCODENO" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="PARTIID" Type="int" Nullable="false" />
+    <Property Name="PARTNAME" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="PARTNUMBER" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="DATEPRODUCED" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="REMAIN" Type="numeric" Precision="10" Scale="5" Nullable="false" />
+    <Property Name="MACHINEPRODUCED" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="MACHINENAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Function Name="SP_TRAER_DATOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="BD_MATERIALESModelStoreContainer">
+    <EntitySet Name="TB_DATOS" EntityType="Self.TB_DATOS" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
