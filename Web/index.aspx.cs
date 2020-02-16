@@ -51,6 +51,17 @@ namespace Web
         }
 
 
+        [WebMethod]
+        public static object getUsers(string strStart, string strFinish)
+        {
+            List<DatosSeguimientoMat> lista = new TraerDatosMaterialesMaquina().TraerDatos(DateTime.ParseExact(iString, "yyyy-MM-dd HH:mm tt", System.Globalization.CultureInfo.InvariantCulture),
+                                                                                           DateTime.ParseExact(strFinish, "yyyy-MM-dd HH:mm tt", System.Globalization.CultureInfo.InvariantCulture));
+           
+
+            object json = new { data = lista };
+
+            return json;
+        }
 
 
 
