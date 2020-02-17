@@ -32,38 +32,30 @@
 <body>
     <form id="form1" runat="server">
 
-
-
         <div id="main">
-
             <div class="dark-overlay">
-
-
                 <header>
                     <nav class="navbar">
                         <a class="navbar-brand">Bridgestone</a>
-                        <%--<h1 class="text-center text-light">Bridgestone</h1>--%>
-                        
                     </nav>
                 </header>
 
-                <%--<div style="height: 50px"></div>--%>
+                <div>
+
+                </div>
+
 
                 <br />
-         <h3 class="text-center text-light">Seguimiento materiales verificados</h3>
-                    <br />
+                <h3 class="text-center text-light">Seguimiento materiales verificados</h3>
+                <br />
+                       
+                <%--  Datepicker--%>
+                <input type="text" name="lbldate" value="" class="form-control" style="max-width: 15%" />
 
                 <!--Ejemplo tabla con DataTables-->
-
                 <div class="container-fluid">
-
                     <div class="row">
                         <div class="col-lg-12">
-
-
-
-                   
-
                             <div class="table-responsive">
                                 <table id="example" class="table table-striped" cellspacing="0" width="100%">
                                     <thead class="thead-dark">
@@ -85,11 +77,6 @@
                                         </tr>
                                     </thead>
                                 </table>
-
-
-
-
-
                             </div>
                         </div>
                     </div>
@@ -100,11 +87,17 @@
 
         </div>
 
-
         <!-- jQuery, Popper.js, Bootstrap JS -->
         <script src="jquery/jquery-3.3.1.min.js"></script>
         <script src="popper/popper.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+        <%--  Para usar datepicker--%>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 
         <!-- datatables JS -->
         <script type="text/javascript" src="datatables/datatables.min.js"></script>
@@ -116,23 +109,13 @@
         <script src="datatables/pdfmake-0.1.36/vfs_fonts.js"></script>
         <script src="datatables/Buttons-1.5.6/js/buttons.html5.min.js"></script>
 
-
-
         <!-- código JS propìo-->
         <script type="text/javascript" src="main.js"></script>
 
 
-
         <script>
-            $(function () {
 
-
-                //test();
-                dtUsers();
-
-                //__showUsers();
-            });
-        </script>
+</script>
 
 
     </form>

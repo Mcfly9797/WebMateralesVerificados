@@ -13,10 +13,7 @@ namespace Datos
     {
         public List<DatosSeguimientoMat> TraerMatMaq()
         {
-
-
            List<DatosSeguimientoMat> listadatos = new List<DatosSeguimientoMat>();
-
             using (BD_MATERIALESEntities db = new BD_MATERIALESEntities())
             {
                 DateTime auxfecha;
@@ -44,19 +41,14 @@ namespace Datos
 
                     listadatos.Add(datos);
                 }
-               
             }
-
             return listadatos;
         }
 
 
         public List<DatosSeguimientoMat> TraerMatMaq(DateTime DateStart, DateTime DateFinish)
         {
-
-
             List<DatosSeguimientoMat> listadatos = new List<DatosSeguimientoMat>();
-
             using (BD_MATERIALESEntities db = new BD_MATERIALESEntities())
             {
                 DateTime auxfecha;
@@ -84,9 +76,7 @@ namespace Datos
 
                     listadatos.Add(datos);
                 }
-
             }
-
             return listadatos;
         }
     }

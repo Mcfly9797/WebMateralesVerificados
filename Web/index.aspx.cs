@@ -12,6 +12,8 @@ using Entidades;
 using System.Web.Services;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Text;
+using System.Globalization;
 
 namespace Web
 {
@@ -41,7 +43,7 @@ namespace Web
 
 
         [WebMethod]
-        public static object getUsers()
+        public static object getMateriales()
         {
             List<DatosSeguimientoMat> lista = new TraerDatosMaterialesMaquina().TraerDatos();
 
@@ -51,16 +53,59 @@ namespace Web
         }
 
 
-        [WebMethod]
-        public static object getUsers(string strStart, string strFinish)
+        public class fechas
         {
-            List<DatosSeguimientoMat> lista = new TraerDatosMaterialesMaquina().TraerDatos(DateTime.ParseExact(iString, "yyyy-MM-dd HH:mm tt", System.Globalization.CultureInfo.InvariantCulture),
-                                                                                           DateTime.ParseExact(strFinish, "yyyy-MM-dd HH:mm tt", System.Globalization.CultureInfo.InvariantCulture));
-           
 
-            object json = new { data = lista };
+            public string inicio { get; set; }
+            public string fin { get; set; }
 
-            return json;
+        }
+
+
+
+
+
+
+        [WebMethod]
+        public static object getMaterialesFecha(fechas objFechas)
+        {
+            try
+            {
+
+                //if (objFechas.inicio != null & objFechas.fin != null)
+                //{
+                    
+
+                    //fechas objFechasAux = objFechas;
+
+                    ////DateTime auxd, auxe = new DateTime();
+                    //string timeaux = objFechasAux.inicio;
+                    //string timeaux1 = objFechasAux.fin;
+
+
+                    DateTime DD = Convert.ToDateTime(objFechas.inicio);
+                    DateTime DE = Convert.ToDateTime(objFechas.fin);
+
+
+                    List<DatosSeguimientoMat> lista = new TraerDatosMaterialesMaquina().TraerDatos(Convert.ToDateTime(objFechas.inicio), Convert.ToDateTime(objFechas.fin));
+
+
+                    object json = new { data = lista };
+
+                    return json;
+
+
+                  
+                //}
+              
+            }
+            catch (Exception)
+            {
+
+
+                throw;
+            }
+            
         }
 
 

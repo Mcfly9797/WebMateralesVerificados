@@ -1,14 +1,18 @@
 $(document).ready(function () {
+    dtPopulate();
+    datePick();
+
+});
+
+
+function dtPopulate() {
     $('#example').DataTable({
-
-
-
         language: {
             "lengthMenu": "<p style='color: white'>Mostrar _MENU_ registros</p>",
             "zeroRecords": "<p style='color: white'>No se encontraron resultados</p>",
             "info": "<p style='color: white'>Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros</p>",
             "infoEmpty": "<p style='color: white'>Mostrando registros del 0 al 0 de un total de 0 registros</p>",
-            "infoFiltered": "<p style='color: white'>(filtrado de un total de _MAX_ registros)</p>",
+            "infoFiltered": "<p style='color: white'>(Filtrado de un total de _MAX_ registros)</p>",
             "sSearch": "<p style='color: white; font-size:11px '><strong>Buscar:</strong>",
             "oPaginate": {
                 "sFirst": "Primero",
@@ -42,11 +46,10 @@ $(document).ready(function () {
             },
         ],
 
-
-
+        //Para traer los datos
         ajax: {
             method: "POST",
-            url: "Index.aspx/getUsers",
+            url: "Index.aspx/getMateriales",
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             data: function (d) {
@@ -72,10 +75,94 @@ $(document).ready(function () {
             { "data": "MachineName" }
         ]
 
-
-
-
-
-
     });
-});
+}
+
+
+
+
+function datePick() {
+    $('input[name="lbldate"]').daterangepicker({
+        opens: 'left',
+        "autoApply": true,
+        "locale": {
+            "format": "MM/DD/YYYY",
+            "separator": " - ",
+            "applyLabel": "Aplicar",
+            "cancelLabel": "Cancelar",
+            "fromLabel": "Desde",
+            "toLabel": "Hasta",
+            "customRangeLabel": "Custom",
+            "weekLabel": "Semana",
+            "daysOfWeek": [
+                "Dom",
+                "Lunes",
+                "Mart",
+                "Mier",
+                "Juev",
+                "Viern",
+                "Sab"
+            ],
+            "monthNames": [
+                "Enero",
+                "Febrero",
+                "Marzo",
+                "Abril",
+                "Mayo",
+                "Junio",
+                "Julio",
+                "Agosto",
+                "Septiembre",
+                "Octubre",
+                "Noviembre",
+                "Diciembre"
+            ],
+            "firstDay": 1
+        },
+        //"startDate": "01/01/2020",
+        //"endDate": "01/12/2020"
+        cancelLabel: 'Clear'
+    },
+        function (start, end, label) {
+            var data = {
+                objFechas: {
+                    inicio: start.format('YYYY-MM-DD'),
+                    fin: end.format('YYYY-MM-DD')
+                }
+            }
+            $.ajax({
+                method: "POST",
+                url: "Index.aspx/getMaterialesFecha",
+                data: JSON.stringify(data),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json"
+
+            }).done(function (info) {
+
+                //dtPopulate2(info);
+                //Respuesta del servidor
+                console.log(info.d);
+
+                var table = $('#example').DataTable();
+
+                table.clear()
+
+
+                table.rows.add(info.d.data).draw();
+                $(".mensaje").html(info.d);
+            })
+                ;
+            console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+        });
+}
+
+function test() {
+    $.ajax({
+        method: "POST",
+        url: "Index.aspx/getUsers",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json"
+    }).done(function (info) {
+        console.log(JSON.stringify(info));
+    });
+}

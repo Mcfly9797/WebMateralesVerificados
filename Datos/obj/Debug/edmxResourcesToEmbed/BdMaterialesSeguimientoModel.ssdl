@@ -22,8 +22,8 @@
   </EntityType>
   <Function Name="SP_TRAER_DATOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="SP_TRAER_DATOS_FECHAS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="strStart" Type="datetime2" Mode="In" />
-    <Parameter Name="strFin" Type="datetime2" Mode="In" />
+    <Parameter Name="strStart" Type="date" Mode="In" />
+    <Parameter Name="strFin" Type="date" Mode="In" />
   </Function>
   <EntityContainer Name="BD_MATERIALESModelStoreContainer">
     <EntitySet Name="TB_DATOS" EntityType="Self.TB_DATOS" Schema="dbo" store:Type="Tables" />
