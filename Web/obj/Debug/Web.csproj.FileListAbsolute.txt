@@ -194,8 +194,6 @@ C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard segui
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Web\bin\System.ValueTuple.xml
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\Web\obj\Debug\Web.csproj.CopyComplete
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\WebMateralesVerificados\Web\obj\Debug\Web.csproj.CoreCompileInputs.cache
-C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\obj\Debug\Web.csprojAssemblyReference.cache
-C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\obj\Debug\Web.csproj.CoreCompileInputs.cache
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\bin\Web.dll.config
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\bin\Web.dll
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\bin\Web.pdb
@@ -235,7 +233,6 @@ C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerific
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\bin\System.Text.Json.dll
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\bin\System.Threading.Tasks.Extensions.dll
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\bin\System.ValueTuple.dll
-C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\bin\Datos.pdb
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\bin\Datos.dll.config
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\bin\Entidades.pdb
@@ -268,7 +265,7 @@ C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerific
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\bin\System.Text.Json.xml
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\bin\System.ValueTuple.xml
-C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\obj\Debug\Web.csprojAssemblyReference.cache
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\obj\Debug\Web.csproj.CopyComplete
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\obj\Debug\Web.dll
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Web\obj\Debug\Web.pdb

@@ -22,6 +22,7 @@
   </EntityType>
   <EntityContainer Name="BD_MATERIALESEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="TB_DATOS" EntityType="Self.TB_DATOS" />
+    <FunctionImport Name="SP_HORA_ULT_JOB_CORRECTO" ReturnType="Collection(String)" />
     <FunctionImport Name="SP_TRAER_DATOS" ReturnType="Collection(BD_MATERIALESModel.SP_TRAER_DATOS_Result)" />
     <FunctionImport Name="SP_TRAER_DATOS_FECHAS" ReturnType="Collection(BD_MATERIALESModel.SP_TRAER_DATOS_FECHAS_Result)">
       <Parameter Name="strStart" Mode="In" Type="DateTime" />

@@ -174,32 +174,136 @@
     <Content Include="bin\Web.dll" />
     <Content Include="bin\Web.pdb" />
     <Content Include="bootstrap.min.css" />
-    <Content Include="Default.Master" />
+    <Content Include="bootstrap\css\bootstrap-grid.css" />
+    <Content Include="bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="datatables\Buttons-1.6.1\css\buttons.bootstrap.css" />
+    <Content Include="datatables\Buttons-1.6.1\css\buttons.bootstrap.min.css" />
+    <Content Include="datatables\Buttons-1.6.1\css\buttons.bootstrap4.css" />
+    <Content Include="datatables\Buttons-1.6.1\css\buttons.bootstrap4.min.css" />
+    <Content Include="datatables\Buttons-1.6.1\css\buttons.dataTables.css" />
+    <Content Include="datatables\Buttons-1.6.1\css\buttons.dataTables.min.css" />
+    <Content Include="datatables\Buttons-1.6.1\css\buttons.foundation.css" />
+    <Content Include="datatables\Buttons-1.6.1\css\buttons.foundation.min.css" />
+    <Content Include="datatables\Buttons-1.6.1\css\buttons.jqueryui.css" />
+    <Content Include="datatables\Buttons-1.6.1\css\buttons.jqueryui.min.css" />
+    <Content Include="datatables\Buttons-1.6.1\css\buttons.semanticui.css" />
+    <Content Include="datatables\Buttons-1.6.1\css\buttons.semanticui.min.css" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.bootstrap.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.bootstrap.min.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.bootstrap4.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.bootstrap4.min.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.colVis.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.colVis.min.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.flash.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.flash.min.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.foundation.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.foundation.min.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.html5.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.html5.min.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.jqueryui.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.jqueryui.min.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.print.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.print.min.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.semanticui.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\buttons.semanticui.min.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\dataTables.buttons.js" />
+    <Content Include="datatables\Buttons-1.6.1\js\dataTables.buttons.min.js" />
+    <Content Include="datatables\Buttons-1.6.1\swf\flashExport.swf" />
+    <Content Include="datatables\DataTables-1.10.20\css\dataTables.bootstrap.css" />
+    <Content Include="datatables\DataTables-1.10.20\css\dataTables.bootstrap.min.css" />
+    <Content Include="datatables\DataTables-1.10.20\css\dataTables.bootstrap4.css" />
+    <Content Include="datatables\DataTables-1.10.20\css\dataTables.bootstrap4.min.css" />
+    <Content Include="datatables\DataTables-1.10.20\css\dataTables.foundation.css" />
+    <Content Include="datatables\DataTables-1.10.20\css\dataTables.foundation.min.css" />
+    <Content Include="datatables\DataTables-1.10.20\css\dataTables.jqueryui.css" />
+    <Content Include="datatables\DataTables-1.10.20\css\dataTables.jqueryui.min.css" />
+    <Content Include="datatables\DataTables-1.10.20\css\dataTables.semanticui.css" />
+    <Content Include="datatables\DataTables-1.10.20\css\dataTables.semanticui.min.css" />
+    <Content Include="datatables\DataTables-1.10.20\css\jquery.dataTables.css" />
+    <Content Include="datatables\DataTables-1.10.20\css\jquery.dataTables.min.css" />
+    <Content Include="datatables\DataTables-1.10.20\images\sort_asc.png" />
+    <Content Include="datatables\DataTables-1.10.20\images\sort_asc_disabled.png" />
+    <Content Include="datatables\DataTables-1.10.20\images\sort_both.png" />
+    <Content Include="datatables\DataTables-1.10.20\images\sort_desc.png" />
+    <Content Include="datatables\DataTables-1.10.20\images\sort_desc_disabled.png" />
+    <Content Include="datatables\DataTables-1.10.20\js\dataTables.bootstrap.js" />
+    <Content Include="datatables\DataTables-1.10.20\js\dataTables.bootstrap.min.js" />
+    <Content Include="datatables\DataTables-1.10.20\js\dataTables.bootstrap4.js" />
+    <Content Include="datatables\DataTables-1.10.20\js\dataTables.bootstrap4.min.js" />
+    <Content Include="datatables\DataTables-1.10.20\js\dataTables.foundation.js" />
+    <Content Include="datatables\DataTables-1.10.20\js\dataTables.foundation.min.js" />
+    <Content Include="datatables\DataTables-1.10.20\js\dataTables.jqueryui.js" />
+    <Content Include="datatables\DataTables-1.10.20\js\dataTables.jqueryui.min.js" />
+    <Content Include="datatables\DataTables-1.10.20\js\dataTables.semanticui.js" />
+    <Content Include="datatables\DataTables-1.10.20\js\dataTables.semanticui.min.js" />
+    <Content Include="datatables\DataTables-1.10.20\js\jquery.dataTables.js" />
+    <Content Include="datatables\DataTables-1.10.20\js\jquery.dataTables.min.js" />
+    <Content Include="datatables\datatables.css" />
+    <Content Include="datatables\datatables.js" />
+    <Content Include="datatables\datatables.min.css" />
+    <Content Include="datatables\datatables.min.js" />
+    <Content Include="datatables\JSZip-2.5.0\jszip.js" />
+    <Content Include="datatables\JSZip-2.5.0\jszip.min.js" />
+    <Content Include="img\Bridgestone.jpg" />
+    <Content Include="jquery\jquery-3.3.1.min.js" />
+    <Content Include="popper\popper.min.js" />
+    <Content Include="webfonts\fa-brands-400.svg" />
+    <Content Include="webfonts\fa-regular-400.svg" />
+    <Content Include="webfonts\fa-solid-900.svg" />
     <None Include="bin\Web.dll.config" />
+    <Content Include="bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="bootstrap\css\bootstrap.css.map" />
+    <Content Include="bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="bootstrap\js\bootstrap.js.map" />
+    <Content Include="bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="datatables\Buttons-1.6.1\css\common.scss" />
+    <Content Include="datatables\Buttons-1.6.1\css\mixins.scss" />
     <None Include="packages.config" />
-    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\Publicar iis Guaje.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="webfonts\fa-brands-400.eot" />
+    <Content Include="webfonts\fa-brands-400.ttf" />
+    <Content Include="webfonts\fa-brands-400.woff" />
+    <Content Include="webfonts\fa-brands-400.woff2" />
+    <Content Include="webfonts\fa-regular-400.eot" />
+    <Content Include="webfonts\fa-regular-400.ttf" />
+    <Content Include="webfonts\fa-regular-400.woff" />
+    <Content Include="webfonts\fa-regular-400.woff2" />
+    <Content Include="webfonts\fa-solid-900.eot" />
+    <Content Include="webfonts\fa-solid-900.ttf" />
+    <Content Include="webfonts\fa-solid-900.woff" />
+    <Content Include="webfonts\fa-solid-900.woff2" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="img\Bridgestone.jpg" />
+    <Content Include="css\daterangepicker.css" />
+    <Content Include="css\fontAwesome-all.css" />
+    <Content Include="js\daterangepicker.js" />
+    <Content Include="js\moment.min.js" />
+    <Content Include="FontAwesome.css" />
     <Content Include="index.aspx" />
     <Content Include="main.css" />
     <Content Include="main.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.Master.cs">
-      <DependentUpon>Default.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.Master.designer.cs">
-      <DependentUpon>Default.Master</DependentUpon>
-    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

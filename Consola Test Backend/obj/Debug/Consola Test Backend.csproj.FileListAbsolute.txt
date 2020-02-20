@@ -91,3 +91,57 @@ C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard segui
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\WebMateralesVerificados\Consola Test Backend\obj\Debug\Consola Test Backend.csproj.CopyComplete
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\WebMateralesVerificados\Consola Test Backend\obj\Debug\Consola Test Backend.exe
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\web dashboard seguimiento materiales V2\WebMateralesVerificados\Consola Test Backend\obj\Debug\Consola Test Backend.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Consola Test Backend.exe.config
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Consola Test Backend.exe
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Consola Test Backend.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Datos.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Entidades.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\EntityFramework.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Recognizers.Definitions.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Recognizers.Text.DateTime.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Recognizers.Text.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Recognizers.Text.Number.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Recognizers.Text.NumberWithUnit.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Negocio.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\NodaTime.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.Buffers.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.Collections.Immutable.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.Data.SqlClient.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.Memory.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.ValueTuple.dll
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Datos.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Datos.dll.config
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Entidades.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Negocio.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Negocio.dll.config
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\EntityFramework.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\NodaTime.pdb
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\NodaTime.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.Buffers.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.Collections.Immutable.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.Data.SqlClient.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.Memory.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\bin\Debug\System.ValueTuple.xml
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\obj\Debug\Consola Test Backend.csprojAssemblyReference.cache
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\obj\Debug\Consola Test Backend.csproj.CopyComplete
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\obj\Debug\Consola Test Backend.exe
+C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Consola Test Backend\obj\Debug\Consola Test Backend.pdb

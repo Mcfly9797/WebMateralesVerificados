@@ -22,9 +22,31 @@
   </EntityType>
   <EntityContainer Name="BD_MATERIALESEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="TB_DATOS" EntityType="Self.TB_DATOS" />
+    <FunctionImport Name="SP_HORA_ULT_JOB_CORRECTO" ReturnType="Collection(String)" />
     <FunctionImport Name="SP_TRAER_DATOS" ReturnType="Collection(BD_MATERIALESModel.SP_TRAER_DATOS_Result)" />
+    <FunctionImport Name="SP_TRAER_DATOS_FECHAS" ReturnType="Collection(BD_MATERIALESModel.SP_TRAER_DATOS_FECHAS_Result)">
+      <Parameter Name="strStart" Mode="In" Type="DateTime" />
+      <Parameter Name="strFin" Mode="In" Type="DateTime" />
+    </FunctionImport>
   </EntityContainer>
   <ComplexType Name="SP_TRAER_DATOS_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="BUILDINGMACHINE" Nullable="true" MaxLength="25" />
+    <Property Type="String" Name="BUILDINGSIZE" Nullable="true" MaxLength="25" />
+    <Property Type="DateTime" Name="VERIFYDATETIME" Nullable="true" />
+    <Property Type="Int32" Name="BSDATESHIFT" Nullable="true" />
+    <Property Type="Int32" Name="BUILDINGLOTNO" Nullable="true" />
+    <Property Type="Int32" Name="BUILDER1" Nullable="true" />
+    <Property Type="String" Name="MATERIALBARCODENO" Nullable="true" MaxLength="25" />
+    <Property Type="Int32" Name="PARTIID" Nullable="true" />
+    <Property Type="String" Name="PARTNAME" Nullable="true" MaxLength="25" />
+    <Property Type="String" Name="PARTNUMBER" Nullable="true" MaxLength="25" />
+    <Property Type="DateTime" Name="DATEPRODUCED" Nullable="true" />
+    <Property Type="Decimal" Name="REMAIN" Nullable="true" Precision="10" Scale="5" />
+    <Property Type="String" Name="MACHINEPRODUCED" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MACHINENAME" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="SP_TRAER_DATOS_FECHAS_Result">
     <Property Type="Int32" Name="ID" Nullable="false" />
     <Property Type="String" Name="BUILDINGMACHINE" Nullable="true" MaxLength="25" />
     <Property Type="String" Name="BUILDINGSIZE" Nullable="true" MaxLength="25" />

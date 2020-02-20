@@ -22,6 +22,7 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_HORA_ULT_JOB_CORRECTO" FunctionName="BD_MATERIALESModel.Store.SP_HORA_ULT_JOB_CORRECTO" />
     <FunctionImportMapping FunctionImportName="SP_TRAER_DATOS" FunctionName="BD_MATERIALESModel.Store.SP_TRAER_DATOS">
       <ResultMapping>
         <ComplexTypeMapping TypeName="BD_MATERIALESModel.SP_TRAER_DATOS_Result">

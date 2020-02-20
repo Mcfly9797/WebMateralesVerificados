@@ -24,10 +24,13 @@
     <!--datables CSS básico-->
     <link rel="stylesheet" type="text/css" href="datatables/datatables.min.css" />
     <!--datables estilo bootstrap 4 CSS-->
-    <link rel="stylesheet" type="text/css" href="datatables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css" />
+    <link rel="stylesheet" type="text/css" href="datatables/DataTables-1.10.20/css/dataTables.bootstrap4.min.css" />
 
-    <!--font awesome con CDN-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+
+    <!--font awesome -->
+    <link href="css/fontAwesome-all.css" rel="stylesheet" />
+
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -36,28 +39,36 @@
             <div class="dark-overlay">
                 <header>
                     <nav class="navbar">
-                        <a class="navbar-brand">Bridgestone</a>
+                        <a class="navbar-brand" style="color: black"><strong>Bridgestone</strong></a>
                     </nav>
                 </header>
 
-                <div>
+              
+                <h1 class="text-center text-light text-capitalize">Seguimiento materiales verificados</h1>
+             
 
+
+                <%--Ultimo job correcto--%>
+                <label id="lblName" style="color: white; margin-left: 10px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"; float: left></label>
+
+
+
+                <%--  Datepicker--%>
+                <div class="col-12">
+
+                    <div style='margin-left: 89%'>
+                        <%--<p style="color: white; border-bottom: 10px">Filtro por fecha</p>--%>
+                        <input type='text' name='lbldate' class='form-control' style='max-width: 205px; margin-bottom: 5px' />
+                    </div>
                 </div>
 
-
-                <br />
-                <h3 class="text-center text-light">Seguimiento materiales verificados</h3>
-                <br />
-                       
-                <%--  Datepicker--%>
-                <input type="text" name="lbldate" value="" class="form-control" style="max-width: 15%" />
 
                 <!--Ejemplo tabla con DataTables-->
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="table-responsive">
-                                <table id="example" class="table table-striped" cellspacing="0" width="100%">
+                                <table id="example" class="table table-striped" cellspacing="0" ">
                                     <thead class="thead-dark">
                                         <tr>
                                             <th>BuildingMachine</th>
@@ -84,7 +95,7 @@
                 </div>
 
             </div>
-
+         
         </div>
 
         <!-- jQuery, Popper.js, Bootstrap JS -->
@@ -93,29 +104,25 @@
         <script src="bootstrap/js/bootstrap.min.js"></script>
 
 
-        <%--  Para usar datepicker--%>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+        <%--        DaterangePicker--%>
+        <script type="text/javascript" src="js/moment.min.js"></script>
+        <script type="text/javascript" src="js/daterangepicker.js"></script>
+        <link type="text/css" href="css/daterangepicker.css" rel="stylesheet" />
+
 
         <!-- datatables JS -->
         <script type="text/javascript" src="datatables/datatables.min.js"></script>
 
         <!-- para usar botones en datatables JS -->
-        <script src="datatables/Buttons-1.5.6/js/dataTables.buttons.min.js"></script>
+        <script src="datatables/Buttons-1.6.1/js/dataTables.buttons.min.js"></script>
         <script src="datatables/JSZip-2.5.0/jszip.min.js"></script>
-        <script src="datatables/pdfmake-0.1.36/pdfmake.min.js"></script>
-        <script src="datatables/pdfmake-0.1.36/vfs_fonts.js"></script>
-        <script src="datatables/Buttons-1.5.6/js/buttons.html5.min.js"></script>
+        <%--<script src="datatables/pdfmake-0.1.36/pdfmake.min.js"></script>--%>
+        <%-- <script src="datatables/pdfmake-0.1.36/vfs_fonts.js"></script>--%>
+        <script src="datatables/Buttons-1.6.1/js/buttons.html5.min.js"></script>
 
         <!-- código JS propìo-->
         <script type="text/javascript" src="main.js"></script>
 
-
-        <script>
-
-</script>
 
 
     </form>

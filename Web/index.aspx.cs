@@ -53,51 +53,20 @@ namespace Web
         }
 
 
-        public class fechas
-        {
-
-            public string inicio { get; set; }
-            public string fin { get; set; }
-
-        }
-
-
-
-
-
+        //Objeto que uso para las fechas
+       
 
         [WebMethod]
-        public static object getMaterialesFecha(fechas objFechas)
+        public static object getMaterialesFecha(Fechas objFechas)
         {
             try
             {
-
-                //if (objFechas.inicio != null & objFechas.fin != null)
-                //{
-                    
-
-                    //fechas objFechasAux = objFechas;
-
-                    ////DateTime auxd, auxe = new DateTime();
-                    //string timeaux = objFechasAux.inicio;
-                    //string timeaux1 = objFechasAux.fin;
-
-
-                    DateTime DD = Convert.ToDateTime(objFechas.inicio);
-                    DateTime DE = Convert.ToDateTime(objFechas.fin);
-
-
                     List<DatosSeguimientoMat> lista = new TraerDatosMaterialesMaquina().TraerDatos(Convert.ToDateTime(objFechas.inicio), Convert.ToDateTime(objFechas.fin));
 
 
                     object json = new { data = lista };
 
                     return json;
-
-
-                  
-                //}
-              
             }
             catch (Exception)
             {
@@ -107,6 +76,24 @@ namespace Web
             }
             
         }
+
+
+
+        [WebMethod]
+        public static object getUltimoJob()
+        {
+            string respuesta = new TraerUltimoJobNegocio().TraerUltimoJob();
+
+
+            object json = new { data = respuesta };
+
+            return json;
+
+            //return respuesta;
+        }
+
+
+
 
 
 

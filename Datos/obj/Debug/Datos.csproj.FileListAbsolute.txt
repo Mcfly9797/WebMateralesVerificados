@@ -227,7 +227,6 @@ C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerific
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Datos\obj\Debug\Datos.Properties.Resources.resources
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Datos\obj\Debug\Datos.csproj.GenerateResource.cache
-C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Datos\obj\Debug\Datos.csproj.CopyComplete
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Datos\obj\Debug\Datos.dll
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Datos\obj\Debug\Datos.pdb

@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="BD_MATERIALESModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="BD_MATERIALESModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="TB_DATOS">
           <Key>
             <PropertyRef Name="ID" />
@@ -25,6 +25,7 @@
           <Property Name="MACHINEPRODUCED" Type="varchar" MaxLength="10" />
           <Property Name="MACHINENAME" Type="nvarchar" MaxLength="50" />
         </EntityType>
+        <Function Name="SP_HORA_ULT_JOB_CORRECTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <Function Name="SP_TRAER_DATOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <Function Name="SP_TRAER_DATOS_FECHAS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="strStart" Type="date" Mode="In" />
@@ -33,7 +34,8 @@
         <EntityContainer Name="BD_MATERIALESModelStoreContainer">
           <EntitySet Name="TB_DATOS" EntityType="Self.TB_DATOS" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
-      </Schema></edmx:StorageModels>
+      </Schema>
+    </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="BD_MATERIALESModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -59,6 +61,7 @@
         </EntityType>
         <EntityContainer Name="BD_MATERIALESEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="TB_DATOS" EntityType="Self.TB_DATOS" />
+          <FunctionImport Name="SP_HORA_ULT_JOB_CORRECTO" ReturnType="Collection(String)" />
           <FunctionImport Name="SP_TRAER_DATOS" ReturnType="Collection(BD_MATERIALESModel.SP_TRAER_DATOS_Result)" />
           <FunctionImport Name="SP_TRAER_DATOS_FECHAS" ReturnType="Collection(BD_MATERIALESModel.SP_TRAER_DATOS_FECHAS_Result)">
             <Parameter Name="strStart" Mode="In" Type="DateTime" />
@@ -126,6 +129,7 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="SP_HORA_ULT_JOB_CORRECTO" FunctionName="BD_MATERIALESModel.Store.SP_HORA_ULT_JOB_CORRECTO" />
           <FunctionImportMapping FunctionImportName="SP_TRAER_DATOS" FunctionName="BD_MATERIALESModel.Store.SP_TRAER_DATOS">
             <ResultMapping>
               <ComplexTypeMapping TypeName="BD_MATERIALESModel.SP_TRAER_DATOS_Result">

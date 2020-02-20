@@ -176,7 +176,6 @@ C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerific
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Negocio\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Negocio\bin\Debug\System.ValueTuple.xml
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
-C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Negocio\obj\Debug\Negocio.dll
 C:\Users\a-villarealn\Documents\GUAJE VILLA\Progra\Proyectos\WebMateralesVerificados\Negocio\obj\Debug\Negocio.pdb

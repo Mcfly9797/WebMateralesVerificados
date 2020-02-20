@@ -29,6 +29,11 @@ namespace Datos
     
         public virtual DbSet<TB_DATOS> TB_DATOS { get; set; }
     
+        public virtual ObjectResult<string> SP_HORA_ULT_JOB_CORRECTO()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("SP_HORA_ULT_JOB_CORRECTO");
+        }
+    
         public virtual ObjectResult<SP_TRAER_DATOS_Result> SP_TRAER_DATOS()
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_TRAER_DATOS_Result>("SP_TRAER_DATOS");
